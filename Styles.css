@@ -1,0 +1,294 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 3vw 0;
+    align-items: baseline;
+    background-image: linear-gradient(90deg,white 40%,#E6F4FC);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header nav li{
+    margin: 0 2vw;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: rgb(145, 156, 174);
+    background-color: rgba(0, 0, 0, 0);
+}
+#hoaxbuster{
+    padding: 15px;
+    background: rgb(54, 86, 212);
+    color: white;
+    border-radius: 6%;
+}
+#Vaccination{
+    color: rgb(56, 88, 214);
+    font-size: 2.2vw;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+}
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    z-index: -1;
+}
+.section1{
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+}
+#title-section1{
+    font-size: 4.2vw;
+    font-weight: bold;
+    color: #1F3E72;
+    padding-left: 22%;
+}
+#message-main{
+    font-size: 1.5vw;
+    color: #6D7B93;
+    padding-left: 22%;
+    padding-bottom: 0.7%;
+}
+.linebreak{
+    height: 2vh;
+}
+#triangle-down{
+    width: 35%;
+    height: 15%;
+    background: #F4F6FB;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    margin-left: 6%;
+}
+.best-selected{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 22%;
+    font-weight: bold;
+    color: #1F3E72;
+    font-size: 1.1vw;
+}
+.schedule{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 22%;
+    font-weight: bold;
+    color: #1F3E72;
+    font-size: 1.5vw;
+}
+.icon-table{
+    margin-right: 3vw;
+}
+.icon-table td{
+    vertical-align: middle;
+}
+.icon-table td img{
+    width: 1.8vw;
+}
+.scheduleBox{
+    margin-left: 22%;
+    z-index: 1;
+    width: 70vw;
+    background-color: white;
+    border-collapse: collapse;
+    opacity: 0.75;
+}
+.scheduleBox td img{
+    width: 1.8vw;
+}
+#scheduleBoxIconTitle{
+    font-weight:lighter;
+    color: #6D7B93;
+    font-size: 1.5vw;
+}
+.scheduleBox td{
+    font-weight: bold;
+    color: #1F3E72;
+    font-size: 1.5vw;
+}
+#scheduleSubmit{
+    padding: 0.9vw;
+    background: rgb(54, 86, 212);
+    color: white;
+    border-radius: 6%;
+    text-decoration: none;
+}
+.nurse1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1589E3;
+    padding: 0 8vw;
+}
+.nurse1 img{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+.vaccinesLogos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7vw 10vw;
+    justify-content: space-evenly;
+}
+.vaccinesLogos img{
+   opacity: 0.15;
+   filter:grayscale(100%);
+   height: 3.8vw;
+   padding: 1vw;
+}
+#title2{
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #1F3E72;
+    padding-left: 12%;
+}
+#message-main2{
+    font-size: 1.5vw;
+    color: #6D7B93;
+    padding-left: 12%;
+    padding-bottom: 0.7%;
+}
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3vw 7vw;
+}
+.benefits div{
+    padding: 1.5vw;
+    width: 17vw;
+    background-color: white;
+    border-radius: 6%;
+    border-width: 0.3vw;
+    border-style: solid;
+    border-color: #FAFAFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.benefits img{
+    width: 4.5vw;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 1.6vw 0;
+}
+.benefits h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #1F3E72;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 1.1vw;
+}
+.benefits p{
+    font-size: 1vw;
+    color: #6D7B93;
+    text-align: justify;
+    
+    padding-bottom: 3vh;
+}
+.preparations{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4vw 0;
+    justify-content: space-between;
+}
+.nurse2{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(180deg,white 15%,#1589E3);
+    padding: 0 4vw;
+}
+.nurse2 img{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+.advices{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 55%;
+}
+.advices h2{
+    font-size: 3.0vw;
+    font-weight: bold;
+    color: #1F3E72;
+}
+.advices p{
+    font-size: 1.5vw;
+    color: #6D7B93;
+    padding-bottom: 0.7%;
+}
+
+.emergency{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4vw 0;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 8vw;
+}
+.contact h2{
+    font-size: 3.0vw;
+    font-weight: bold;
+    color: #1F3E72;
+}
+.contact p{
+    font-size: 1.5vw;
+    color: #6D7B93;
+    padding-bottom: 0.7%;
+}
+.nurse3{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(180deg,white 15%,#1589E3);
+    padding: 0 3vw;
+    padding-top: 4vw;
+}
+.nurse3 img{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 5vw 8vw;
+    background-color: #EEF3FF;
+}
+.rights{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color: rgba(0, 0, 0, 0);
+}
