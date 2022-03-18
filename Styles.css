@@ -423,6 +423,13 @@
     line-height: 250%;
     font-size: 1.2vw;
 }
+.box p a{
+    color: rgb(56, 88, 214);
+    text-decoration: none;
+}
+.box p a:hover{
+    color: #7D8AA1;
+}
 .group2{
     display: flex;
     flex-wrap: wrap;
@@ -465,7 +472,41 @@
     font-size: 1.8vw;
     color: #2D2D2E;
 }
-/*---------------------Page Construction-----------------*/
+/*---------------------Page About us-----------------*/
+.about{
+    background-color: #FCFEFC;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8vw 3vw;
+}
+.about div{
+    text-align: center;
+}
+.about img{
+    height: 20vw;
+}
+.about div p{
+    color: rgb(131, 134, 139);
+    padding: 0.5vw 1vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+.about div h2{
+    color: #0d2583;
+    padding-bottom: 1vw;
+    font-size: 2.8vw;
+}
+.about div ul{
+    list-style: none;
+}
+.about div a{
+    color:#1589E3;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width:1275px){
     /*Header*/
@@ -680,4 +721,10 @@
         font-size: 3.2vw;
     }
     /*---------------------Page About Us-----------------*/
+    .about div p{
+        font-size: 2.2vw;
+    }
+    .about div a{
+        font-size: 2.2vw;
+    }
 }
